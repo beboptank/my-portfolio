@@ -1,15 +1,19 @@
 import React from 'react';
-import './App.css';
+
+import Hero from './components/Hero/Hero';
+import About from './components/About/About';
+import ProjectShowcase from './components/ProjectShowcase/ProjectShowcase';
 
 function App() {
   return (
     <div className="App">
-      {/*
-        <Navigation />
+      
         <Hero />
         <About />
         <ProjectShowcase />
-        <Contact />
+        <ProjectShowcase />
+        <ProjectShowcase />
+        {/*<Contact />
         <SocialMedia />
       */}
     </div>
