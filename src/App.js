@@ -3,6 +3,7 @@ import React from 'react';
 import Hero from './components/Hero/Hero';
 import About from './components/About/About';
 import ProjectShowcase from './components/ProjectShowcase/ProjectShowcase';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
@@ -13,8 +14,8 @@ function App() {
         <ProjectShowcase />
         <ProjectShowcase />
         <ProjectShowcase />
-        {/*<Contact />
-        <SocialMedia />
+        <Contact />
+        {/*<SocialMedia />
       */}
     </div>
   );
