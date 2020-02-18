@@ -6,11 +6,11 @@ const Contact = () => {
             <div>
                 <h2>
                     Contact
-        </h2>
+                </h2>
                 <div>
                     <p>
-                        [Put your call to action here]
-          </p>
+                        Interested? Contact me.
+                    </p>
                     <a
                         target="_blank"
                         class="cta-btn cta-btn--resume"
