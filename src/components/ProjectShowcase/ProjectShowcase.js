@@ -2,7 +2,7 @@ import React from 'react';
 
 const ProjectShowcase = ({ num, projectPic, description }) => {
     return (
-        <div>
+        <div id="projects">
             <h1>Project {num}</h1>
             <img alt='project' src={projectPic} width='450px' height='auto'/>
             <p>
