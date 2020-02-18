@@ -6,6 +6,8 @@ import ProjectShowcase from './components/ProjectShowcase/ProjectShowcase';
 import Contact from './components/Contact/Contact';
 import SocialMedia from './components/SocialMedia/SocialMedia';
 
+import './App.scss';
+
 function App() {
   return (
     <div className="App">
