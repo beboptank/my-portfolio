@@ -1,20 +1,24 @@
 import React from 'react';
 
+import './Contact.scss';
+
 const Contact = () => {
     return (
         <section>
-            <div>
-                <h2>
+            <div className="contactcontainer">
+                <h1 className="contactcontainer__head">
                     Contact
-                </h2>
-                <div>
+                </h1>
+                <div className="contactcontainer__content">
                     <p>
-                        Interested? Contact me.
+                        Interested? I'm currently looking for
+                        entry level positions in the North and South Carolina
+                        areas. 
                     </p>
-                    <a
+                    <a 
+                        className="contactcontainer__button"
                         target="_blank"
-                        class="cta-btn cta-btn--resume"
-                        href="mailto:example@email.com"
+                        href="mailto:sethchristmus@gmail.com"
                     >Contact Me</a>
                 </div>
             </div>
