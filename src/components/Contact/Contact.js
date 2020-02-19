@@ -19,14 +19,15 @@ const Contact = () => {
                     </p>
                     <a 
                         className="contactcontainer__button"
+                        rel="noopener noreferrer"
                         target="_blank"
                         href="mailto:sethchristmus@gmail.com"
                     >Contact Me</a>
                 </div>
                 <div className="contactcontainer__socialmedia">
-                    <a href="www.twitter.com/SethChristmus"><FontAwesomeIcon className="contactcontainer__socialmedia__icon" icon={faTwitterSquare} /></a>
-                    <a href="www.github.com/beboptank"><FontAwesomeIcon className="contactcontainer__socialmedia__icon" icon={faGithubSquare} /></a>
-                    <a href="https://www.linkedin.com/in/schristmus/"><FontAwesomeIcon className="contactcontainer__socialmedia__icon" icon={faLinkedin} /></a>
+                    <a rel="noopener noreferrer" target="_blank" href="https://www.twitter.com/SethChristmus"><FontAwesomeIcon className="contactcontainer__socialmedia__icon" icon={faTwitterSquare} /></a>
+                    <a rel="noopener noreferrer" target="_blank" href="https://www.github.com/beboptank"><FontAwesomeIcon className="contactcontainer__socialmedia__icon" icon={faGithubSquare} /></a>
+                    <a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/schristmus/"><FontAwesomeIcon className="contactcontainer__socialmedia__icon" icon={faLinkedin} /></a>
                 </div>
             </div>
         </section>

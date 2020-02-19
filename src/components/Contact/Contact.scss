@@ -66,4 +66,9 @@ $secondary-font: 'Raleway', sans-serif;
             transform: scale(1.2); 
         }
     }
+
+    &__socialmedia a {
+        text-decoration: none;
+        color: white;
+    }
 }
