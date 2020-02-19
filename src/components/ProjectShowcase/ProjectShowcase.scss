@@ -1,0 +1,47 @@
+@use 'https://fonts.googleapis.com/css?family=Cabin|Raleway&display=swap';
+
+$main-font: 'Cabin', sans-serif;
+$secondary-font: 'Raleway', sans-serif;
+
+.projectcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    padding: 1rem;
+    font-family: $main-font;
+
+    &__name {
+        grid-column: 1 / span 1;
+    }
+
+    &__image {
+        grid-column: 2 / span 1;
+        padding-right: 1rem;
+    }
+
+    &__description {
+        grid-column: 3 / span 1;
+        font-family: $secondary-font;
+    }
+
+    &__button {
+        background: linear-gradient(to right, #777777, #dd1818);
+        font-family: $secondary-font;
+        font-weight: bold;
+        color: white;
+        box-shadow: 0 5px 0 #777777;
+        padding: 1em 1.5em;
+        position: relative;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    &__button:active {
+        box-shadow: none;
+        top: 5px;
+    }
+}
+
+a {
+    margin: .5rem;
+}

@@ -1,15 +1,19 @@
 import React from 'react';
 
+import './ProjectShowcase.scss';
+
 const ProjectShowcase = ({ num, projectPic, description }) => {
     return (
-        <div id="projects">
-            <h1>Project {num}</h1>
-            <img alt='project' src={projectPic} width='450px' height='auto'/>
-            <p>
-                {description}
-            </p>
-            <button>Source Code</button>
-            <button>View Live</button>
+        <div id="projects" className="projectcontainer">
+            <h1 className="projectcontainer__name">Project {num}</h1>
+            <img className="projectcontainer__image" alt='project' src={projectPic} width='350rem' height='auto'/>
+            <div className="projectcontainer__description">
+                <p>
+                    {description}
+                </p>
+                <a className="projectcontainer__button">Source Code</a>
+                <a className="projectcontainer__button">View Live</a>
+            </div>
         </div>
     );
 }
