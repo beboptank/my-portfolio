@@ -7,7 +7,7 @@ $secondary-font: 'Raleway', sans-serif;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     height: 100vh;
     background-color: #333333;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
@@ -25,10 +25,14 @@ $secondary-font: 'Raleway', sans-serif;
         margin-bottom: 3rem;
         font-family: $secondary-font;
         font-size: 1.5rem;
-        text-align: right;
+        text-align: center;
         width: 50%;
         color: white;
         margin-right: 1rem;
+
+        &__text {
+            padding-bottom: 3rem;
+        }
     }
 
     &__button {
@@ -41,11 +45,25 @@ $secondary-font: 'Raleway', sans-serif;
         position: relative;
         text-decoration: none;
         text-transform: uppercase;
-        margin-right: 1rem;
     }
 
     &__button:active {
         box-shadow: none;
         top: 5px;
+    }
+
+    &__socialmedia {
+        font-size: 4rem;
+        color: white;
+        padding-right: 1rem;
+
+        &__icon {
+            padding: 1rem;
+            transition: all .3s ease-in-out; 
+        }
+
+        &__icon:hover {
+            transform: scale(1.2); 
+        }
     }
 }
