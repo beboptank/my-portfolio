@@ -2,17 +2,17 @@ import React from 'react';
 
 import './ProjectShowcase.scss';
 
-const ProjectShowcase = ({ num, projectPic, description }) => {
+const ProjectShowcase = ({ name, projectPic, description, source, live }) => {
     return (
         <div id="projects" className="projectcontainer">
-            <h1 className="projectcontainer__name">Project {num}</h1>
-            <img className="projectcontainer__image" alt='project' src={projectPic} width='350rem' height='auto'/>
+            <h1 className="projectcontainer__name">{name}</h1>
+            <img className="projectcontainer__image" alt='project' src={projectPic} width='350px' height='auto'/>
             <div className="projectcontainer__description">
                 <p>
                     {description}
                 </p>
-                <a className="projectcontainer__button">Source Code</a>
-                <a className="projectcontainer__button">View Live</a>
+                <a href={source} className="projectcontainer__button">Source Code</a>
+                <a href={live} className="projectcontainer__button">View Live</a>
             </div>
         </div>
     );
@@ -21,7 +21,9 @@ const ProjectShowcase = ({ num, projectPic, description }) => {
 export default ProjectShowcase;
 
 ProjectShowcase.defaultProps = {
-    num: 1000,
+    name: "Cool project",
     projectPic: 'https://4.bp.blogspot.com/-WL7pR1_DSfE/W0hzY0Sk9rI/AAAAAAAAASQ/doY8xUE3FYkgpWuMzdhv9aARj7qiAsiVwCPcBGAYYCw/s1600/Basset-Hound-pup.jpg',
-    description: 'Sick project, bro!'
+    description: 'Sick project, bro!',
+    source: "www.google.com",
+    live: "www.google.com"
 }

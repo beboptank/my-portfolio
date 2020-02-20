@@ -8,6 +8,8 @@ import SocialMedia from './components/SocialMedia/SocialMedia';
 
 import './App.scss';
 
+import safe from './safe.png';
+
 function App() {
   return (
     <div className="App">
@@ -16,7 +18,14 @@ function App() {
         <About />
         <ProjectShowcase />
         <ProjectShowcase />
-        <ProjectShowcase />
+        <ProjectShowcase 
+          name="SAFE Gardening"
+          projectPic={safe}
+          description="An international team project that focused on redesigning 
+          the website of SAFE Gardening, a nonprofit. Used HTML, CSS, and JavaScript."
+          source="https://github.com/chingu-voyage4/Geckos-Team-15"
+          live="https://chingu-voyage4.github.io/Geckos-Team-15/"
+        />
         <Contact />
         <SocialMedia />
       
