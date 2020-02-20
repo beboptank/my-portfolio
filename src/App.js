@@ -4,7 +4,7 @@ import Hero from './components/Hero/Hero';
 import About from './components/About/About';
 import ProjectShowcase from './components/ProjectShowcase/ProjectShowcase';
 import Contact from './components/Contact/Contact';
-import SocialMedia from './components/SocialMedia/SocialMedia';
+import Footer from './components/Footer/Footer';
 
 import './App.scss';
 
@@ -27,7 +27,7 @@ function App() {
           live="https://chingu-voyage4.github.io/Geckos-Team-15/"
         />
         <Contact />
-        <SocialMedia />
+        <Footer />
       
     </div>
   );
