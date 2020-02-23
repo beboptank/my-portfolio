@@ -9,7 +9,7 @@ $breakpoint-tablet: 768px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
-    padding: 1rem;
+    padding: 2rem;
     font-family: $main-font;
 
     &__name {
@@ -19,13 +19,17 @@ $breakpoint-tablet: 768px;
     &__image {
         grid-column: 2 / span 1;
         padding-right: 1rem;
-        width: 5rem;
+        width: 20rem;
         height: auto;
     }
 
     &__description {
         grid-column: 3 / span 1;
         font-family: $secondary-font;
+    }
+
+    &__description p {
+        padding-bottom: 30px;
     }
 
     &__button {
@@ -53,8 +57,16 @@ a {
 @media (max-width: $breakpoint-small) {
     .projectcontainer {
         display: flex;
-        flex-direction: column;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-content: center;
+        font-size: .8rem;
+
+        &__image {
+            width: 11rem;
+        }
     }
+
 }
 
 @media (max-width: $breakpoint-tablet) {

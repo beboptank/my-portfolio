@@ -22,7 +22,8 @@ function App() {
           name="SAFE Gardening"
           projectPic={safe}
           description="An international team project that focused on redesigning 
-          the website of SAFE Gardening, a nonprofit. Used HTML, CSS, and JavaScript."
+          the website of SAFE Gardening, a nonprofit. We used HTML, CSS, and JavaScript
+          to create a better UI/UX."
           source="https://github.com/chingu-voyage4/Geckos-Team-15"
           live="https://chingu-voyage4.github.io/Geckos-Team-15/"
         />
