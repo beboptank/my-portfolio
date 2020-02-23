@@ -6,7 +6,7 @@ const ProjectShowcase = ({ name, projectPic, description, source, live }) => {
     return (
         <div id="projects" className="projectcontainer">
             <h1 className="projectcontainer__name">{name}</h1>
-            <img className="projectcontainer__image" alt='project' src={projectPic} width='350px' height='auto'/>
+            <img className="projectcontainer__image" alt='project' src={projectPic} />
             <div className="projectcontainer__description">
                 <p>
                     {description}

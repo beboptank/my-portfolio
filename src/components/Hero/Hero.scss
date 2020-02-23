@@ -2,6 +2,7 @@
 
 $main-font: 'Cabin', sans-serif;
 $secondary-font: 'Raleway', sans-serif;
+$breakpoint-small: 600px;
 
 .herocontainer {
     display: flex;
@@ -37,5 +38,23 @@ $secondary-font: 'Raleway', sans-serif;
     &__linkbutton:active {
         box-shadow: none;
         top: 5px;
+    }
+}
+
+@media (max-width: $breakpoint-small) {
+    .herocontainer {
+        height: 50vh;
+
+        &__head {
+            font-size: .75rem;
+        }
+
+        &__subhead {
+            font-size: .5rem;
+        }
+
+        &__linkbutton {
+            font-size: .75rem;
+        }
     }
 }

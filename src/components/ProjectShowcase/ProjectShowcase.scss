@@ -2,6 +2,8 @@
 
 $main-font: 'Cabin', sans-serif;
 $secondary-font: 'Raleway', sans-serif;
+$breakpoint-small: 600px;
+$breakpoint-tablet: 768px;
 
 .projectcontainer {
     display: grid;
@@ -17,6 +19,8 @@ $secondary-font: 'Raleway', sans-serif;
     &__image {
         grid-column: 2 / span 1;
         padding-right: 1rem;
+        width: 5rem;
+        height: auto;
     }
 
     &__description {
@@ -44,4 +48,19 @@ $secondary-font: 'Raleway', sans-serif;
 
 a {
     margin: .5rem;
+}
+
+@media (max-width: $breakpoint-small) {
+    .projectcontainer {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: $breakpoint-tablet) {
+    .projectcontainer {
+        &__button {
+            font-size: .5rem;
+        }
+    }
 }
