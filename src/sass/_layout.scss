@@ -1,0 +1,13 @@
+@import '_base.scss';
+
+.layout {
+    @include main-layout-flex;
+}
+
+.subsectionlayout {
+    @include subsection-layout-flex;
+}
+
+.specialsubsection {
+    @include subsection-special-background;
+}

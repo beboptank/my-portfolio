@@ -7,12 +7,13 @@ import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 
 import './App.scss';
+import './sass/main.scss';
 
 import safe from './safe.png';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App layout">
       
         <Hero />
         <About />
