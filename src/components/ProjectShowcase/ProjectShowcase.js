@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './ProjectShowcase.scss';
+
 
 const ProjectShowcase = ({ name, projectPic, description, source, live }) => {
     return (

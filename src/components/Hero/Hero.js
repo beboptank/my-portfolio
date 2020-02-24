@@ -1,7 +1,7 @@
 import React from 'react';
 import {Animated} from 'react-animated-css';
 
-import './Hero.scss';
+
 
 const Hero = () => {
     return (
