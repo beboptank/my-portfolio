@@ -1,10 +1,10 @@
 import React from 'react';
 
-
+import '../../sass/components/_about.scss';
 
 const About = () => {
     return (
-        <div id="about" className="aboutcontainer">
+        <div id="about" className="aboutcontainer specialsubsectionlayout">
             <div className="aboutcontainer__imagecontainer">
                 <img className="aboutcontainer__imagecontainer__image" alt="headshot" src={require('./headshot.jpg')}/>
             </div>

@@ -84,7 +84,7 @@ select {
 $main-font: 'Righteous', ;
 $secondary-font: 'Roboto', ;
 $button-font-color: white;
-$headshot-width: 10em;
+$headshot-width: 15em;
 
 /* Mixins */
 @mixin main-layout-flex {
@@ -98,6 +98,19 @@ $headshot-width: 10em;
   display: -webkit-flex;
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  height: 100vh;
+}
+
+@mixin special-subsection-layout-flex {
+  display: -webkit-flex;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 2em;
+  @include subsection-special-background;
 }
 
 @mixin subsection-special-background {

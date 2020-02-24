@@ -4,10 +4,7 @@
     @include main-layout-flex;
 }
 
-.subsectionlayout {
-    @include subsection-layout-flex;
+.specialsubsectionlayout {
+    @include special-subsection-layout-flex;
 }
 
-.specialsubsection {
-    @include subsection-special-background;
-}

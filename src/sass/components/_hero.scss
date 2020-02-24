@@ -2,23 +2,23 @@
 
 
 .herocontainer {
-    text-align: center;
+    @include subsection-layout-flex;
 
-    .herocontainer__head {
+    &__head {
         font-family: $main-font;
         font-size: 2.5rem;
     }
 
-    .herocontainer__subhead {
+    &__subhead {
         font-family: $secondary-font;
         padding: 1em 1.5em;
     }
 
-    .herocontainer__linkbutton {
+    &__linkbutton {
         @include link-button;
     }
 
-    .herocontainer__linkbutton:active {
+    &__linkbutton:active {
         box-shadow: none;
         top: 5px;
     }
