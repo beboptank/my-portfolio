@@ -2,7 +2,6 @@
 
 .aboutcontainer {
     @include subsection-layout-flex;
-    height: auto;
 
     &__imagecontainer {
         &__image {
@@ -33,6 +32,16 @@
         &__linkbutton:active {
             box-shadow: none;
             top: 5px;
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .aboutcontainer {
+        &__imagecontainer {
+            &__image {
+                width: 10rem;
+            }
         }
     }
 }

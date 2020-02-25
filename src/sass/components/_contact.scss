@@ -5,6 +5,7 @@ $socialicon-color: white;
 
 .contactcontainer {
     @include special-subsection-layout-flex;
+    flex-direction: column;
     text-align: center;
 
     &__head {

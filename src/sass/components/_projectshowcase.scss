@@ -4,6 +4,7 @@
     @include subsection-layout-flex;
     flex-flow: column nowrap;
     height: auto;
+    padding: 1rem;
 
     &__name {
         font-family: $main-font;
