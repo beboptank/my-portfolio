@@ -1,0 +1,31 @@
+@import '../main.scss';
+
+.projectcontainer {
+    @include subsection-layout-flex;
+    flex-flow: column nowrap;
+    height: auto;
+
+    &__name {
+        font-family: $main-font;
+    }
+
+    &__buttons {
+
+        padding: 2rem 0 2rem 0;
+
+        &__linkbutton {
+        @include link-button;
+        width: 10rem;
+        }
+    }
+
+    &__description {
+        font-family: $secondary-font;
+        font-size: 1.2rem;
+    }
+    
+}
+
+.projectcontainer a {
+    margin: 1rem;
+}
