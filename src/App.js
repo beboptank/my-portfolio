@@ -16,6 +16,14 @@ function App() {
         <Hero />
         <About />
         <ProjectShowcase 
+          name="Smart Brain"
+          description="A full stack project using Clarifai's face recognition 
+          API. Culmination of my learning in Andrei Neagoie's Zero to Mastery 
+          course. Used React, Node JS, Express, PostgresSQL, and Heroku."
+          source="https://github.com/beboptank/smart-brain-app"
+          live="https://smart-brain-sc.herokuapp.com/"
+        />
+        <ProjectShowcase 
           name="Reddit Clone"
           description="An international, open-source team project focused on 
           recreating the website Reddit. Assisted in developing React components 
@@ -30,14 +38,6 @@ function App() {
           reflects the style of his bar. Used Gatsby, React, and SCSS."
           source="https://github.com/beboptank/woody-website"
           live="http://woody.surge.sh/"
-        />
-        <ProjectShowcase 
-          name="SAFE Gardening"
-          description="An international, open-source team project focused on redesigning 
-          the website of SAFE Gardening, a nonprofit. Used HTML, CSS, and JavaScript
-          to create a better UI/UX."
-          source="https://github.com/chingu-voyage4/Geckos-Team-15"
-          live="https://chingu-voyage4.github.io/Geckos-Team-15/"
         />
         <Contact />
         <Footer />
