@@ -78,10 +78,10 @@ select {
 }
 
 /* Fonts */
-@import url('https://fonts.googleapis.com/css?family=Righteous|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Changa|Roboto&display=swap');
 
 /* Variables */
-$main-font: 'Righteous', ;
+$main-font: 'Changa', ;
 $secondary-font: 'Roboto', ;
 $button-font-color: white;
 $headshot-width: 13em;
@@ -131,7 +131,8 @@ $headshot-width: 13em;
   color:$button-font-color;
   text-decoration: none;
   text-transform: uppercase;
-  padding: .5em 1em;
-  box-shadow: 0 5px 0 #777777;
+  padding: 1em 1.5em;
+  box-shadow: 0px 5px 0 #777777;
   border-radius: 5px;
+  transition: all 1s ease;
 }

@@ -18,6 +18,11 @@
         @include link-button;
         width: 10rem;
         }
+
+        &__linkbutton:active {
+            box-shadow: none;
+            top: 5px;
+        }
     }
 
     &__description {
