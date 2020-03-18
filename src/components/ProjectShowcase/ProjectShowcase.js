@@ -7,8 +7,8 @@ const ProjectShowcase = ({ name, description, source, live }) => {
         <div id="projects" className="projectcontainer">
             <h1 className="projectcontainer__name">{name}</h1>
             <div className="projectcontainer__buttons">
-                <a href={source} className="projectcontainer__buttons__linkbutton">Source Code</a>
-                <a href={live} className="projectcontainer__buttons__linkbutton">View Live</a>
+                <a target="_blank" href={source} className="projectcontainer__buttons__linkbutton">Source Code</a>
+                <a target="_blank" href={live} className="projectcontainer__buttons__linkbutton">View Live</a>
             </div>
             <div className="projectcontainer__description">
                 <p>
