@@ -22,6 +22,7 @@ function App() {
           course. Used React, Node JS, Express, PostgresSQL, and Heroku."
           source="https://github.com/beboptank/smart-brain-app"
           live="https://smart-brain-sc.herokuapp.com/"
+          firstProject
         />
         <ProjectShowcase 
           name="Reddit Clone"
