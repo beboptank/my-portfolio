@@ -14,8 +14,8 @@ const Contact = () => {
                 <div className="contactcontainer__content">
                     <p className="contactcontainer__content__text">
                         Interested? I'm currently looking for
-                        entry level positions in the North and South Carolina
-                        areas. 
+                        positions in the North and South Carolina, Georgia, and
+                        northern Florida areas. 
                     </p>
                     <a 
                         className="contactcontainer__button"

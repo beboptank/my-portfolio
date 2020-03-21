@@ -4,15 +4,17 @@
     @include subsection-layout-flex;
     flex-flow: column nowrap;
     height: auto;
-    padding: 2rem 1rem;
+    padding: 3rem 1rem 2rem 1rem;
 
     &__header {
         font-family: $main-font;
-        padding: 1rem 0 1rem 0;
+        color: #950740;
+        padding-bottom: 1rem;
     }
 
     &__name {
         font-family: $main-font;
+        padding: 1rem 0 1rem 0;
     }
 
     &__buttons {
@@ -33,6 +35,7 @@
     &__description {
         font-family: $secondary-font;
         font-size: 1.2rem;
+        padding: 3rem 10rem 0rem 10rem;
     }
     
 }
