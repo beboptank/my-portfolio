@@ -53,3 +53,14 @@
         }
     }
 }
+
+@media only screen and (max-width: 320px) {
+    .projectcontainer {
+        &__buttons {
+            &__linkbutton {
+                font-size: .8rem;
+                padding: 1rem 1rem 1rem 1rem;
+            }
+        }
+    }
+}
