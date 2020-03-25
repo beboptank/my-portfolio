@@ -12,7 +12,7 @@ $socialicon-color: white;
         font-family: $main-font;
         font-size: 2.5rem;
         padding-bottom: 1rem;
-        color: #950740;
+        color: $red;
     }
 
     &__content {
@@ -24,8 +24,23 @@ $socialicon-color: white;
         }
     }
 
-    &__button {
+    &__linkbutton {
         @include link-button;
+    }
+
+    &__linkbutton:active {
+        box-shadow: none;
+        top: 5px;
+    }
+
+    &__linkbutton:hover {
+        background: darken($red, 1.5%);
+        border: 1px solid rgba(#000, .05);
+        box-shadow: 1px 1px 2px rgba(#fff, .2);
+        color: lighten(#000, 1%); 
+        text-decoration: none;
+        text-shadow: -1px -1px 0 darken($red, 9.5%);
+        transition: all 250ms linear;
     }
 
     &__socialmedia {
@@ -34,6 +49,14 @@ $socialicon-color: white;
         text-decoration: none;
         text-transform: none;
         padding-top: 2rem;
+
+        &__icon {
+            transition: all .2s ease-in-out;
+        }
+
+        &__icon:hover {
+            transform: scale(1.3);
+        }
     }
 
     &__socialmedia a {

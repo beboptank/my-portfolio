@@ -18,7 +18,7 @@ const Contact = () => {
                         northern Florida areas. 
                     </p>
                     <a 
-                        className="contactcontainer__button"
+                        className="contactcontainer__linkbutton"
                         rel="noopener noreferrer"
                         target="_blank"
                         href="mailto:sethchristmus@gmail.com"
