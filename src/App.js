@@ -30,7 +30,7 @@ function App() {
           recreating the website Reddit. Assisted in developing React components 
           for the front end. Used Next.js, React, and SCSS."
           source="https://github.com/chingu-voyages/v13-bears-team-04"
-          live="https://coolredditclone.now.sh/"
+        live="https://redditclone-v13.now.sh/"
         />
         <ProjectShowcase 
           name="Woody"
