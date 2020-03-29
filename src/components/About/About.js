@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Tech from '../Tech/Tech';
+
 import '../../sass/components/_about.scss';
 
 const About = () => {
@@ -17,6 +19,7 @@ const About = () => {
                     first professional opportunity.
                 </p>
                 <a href="#projects" className="aboutcontainer__contentcontainer__linkbutton">My Projects</a>
+                <Tech />
             </div>
         </div>
     );

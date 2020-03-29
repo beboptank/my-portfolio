@@ -2,7 +2,6 @@ import React from 'react';
 
 import Hero from './components/Hero/Hero';
 import About from './components/About/About';
-import Tech from './components/Tech/Tech';
 import ProjectShowcase from './components/ProjectShowcase/ProjectShowcase';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
@@ -16,7 +15,6 @@ function App() {
       
         <Hero />
         <About />
-        <Tech />
         <ProjectShowcase 
           name="Smart Brain"
           description="A full stack project using Clarifai's face recognition 

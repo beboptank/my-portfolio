@@ -3,6 +3,7 @@
 
 .herocontainer {
     @include subsection-layout-flex;
+    height: 100vh;
 
     &__head {
         font-family: $main-font;
