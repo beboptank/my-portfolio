@@ -34,7 +34,7 @@ function App() {
         />
         <ProjectShowcase 
           name="Woody"
-          description="Developed and deployed a new website for Woody, a bar in
+          description="Developing and deploying a new website for Woody, a bar in
           Fukui, Japan. Collaborated with the owner to create a website that
           reflects the style of his bar. Used Gatsby, React, and SCSS."
           source="https://github.com/beboptank/woody-website"
