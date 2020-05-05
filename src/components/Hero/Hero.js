@@ -14,7 +14,7 @@ const Hero = () => {
                 params={{
                     particles: {
                         number: {
-                            value: 80
+                            value: 30
                         },
                         line_linked: {
                             shadow: {
