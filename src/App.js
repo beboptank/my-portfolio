@@ -19,7 +19,7 @@ function App() {
           name="Smart Brain"
           description="A full stack project using Clarifai's face recognition 
           API. Culmination of my learning in Andrei Neagoie's Zero to Mastery 
-          course. Used React, Node JS, Express, PostgresSQL, and Heroku."
+          course. Used React, Node JS, Express, PostgreSQL, and Heroku."
           source="https://github.com/beboptank/smart-brain-app"
           live="https://smart-brain-sc.herokuapp.com/"
           firstProject
