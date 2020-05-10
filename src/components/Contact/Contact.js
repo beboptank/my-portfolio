@@ -7,7 +7,7 @@ import '../../sass/components/_contact.scss';
 const Contact = () => {
     return (
         <section>
-            <div className="contactcontainer">
+            <div className="contactcontainer" data-aos="fade-up" data-aos-duration="1500">
                 <h1 className="contactcontainer__head">
                     Contact
                 </h1>

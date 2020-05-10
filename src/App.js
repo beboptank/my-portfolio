@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+
 
 import Hero from './components/Hero/Hero';
 import About from './components/About/About';
@@ -8,8 +10,15 @@ import Footer from './components/Footer/Footer';
 
 import './App.scss';
 import './sass/main.scss';
+import 'aos/dist/aos.css';
+
 
 function App() {
+
+  useEffect(() => {
+    AOS.init();
+  });
+
   return (
     <div className="App layout">
       

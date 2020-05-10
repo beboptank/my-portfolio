@@ -6,7 +6,7 @@ const ProjectShowcase = ({ name, description, source, live, firstProject }) => {
 
     if (firstProject) {
         return (
-            <div id="projects" className="projectcontainer">
+            <div id="projects" className="projectcontainer" data-aos="flip-left" data-aos-duration="1500">
                 <h1 className="projectcontainer__header">Projects</h1>
                 <h2 className="projectcontainer__name">{name}</h2>
                 <div className="projectcontainer__buttons">
@@ -23,7 +23,7 @@ const ProjectShowcase = ({ name, description, source, live, firstProject }) => {
     } else {
         return (
 
-            <div id="projects" className="projectcontainer">
+            <div id="projects" className="projectcontainer" data-aos="flip-left" data-aos-duration="1500">
                 <h2 className="projectcontainer__name">{name}</h2>
                 <div className="projectcontainer__buttons">
                     <a rel="noopener noreferrer" target="_blank" href={source} className="projectcontainer__buttons__linkbutton">Source Code</a>

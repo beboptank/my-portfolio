@@ -3,10 +3,12 @@ import React from 'react';
 import Tech from '../Tech/Tech';
 
 import '../../sass/components/_about.scss';
+import 'aos/dist/aos.css';
 
 const About = () => {
+
     return (
-        <div id="about" className="aboutcontainer specialsubsectionlayout">
+        <div id="about" className="aboutcontainer specialsubsectionlayout" data-aos="zoom-in" data-aos-duration="1500">
             <div className="aboutcontainer__imagecontainer">
                 <img className="aboutcontainer__imagecontainer__image" alt="headshot" src={require('./headshot.jpg')}/>
             </div>
