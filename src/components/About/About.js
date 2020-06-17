@@ -15,7 +15,7 @@ const About = () => {
             <div className="aboutcontainer__contentcontainer">
                 <h1 className="aboutcontainer__contentcontainer__head">About Me</h1>
                 <p className="aboutcontainer__contentcontainer__info">
-                    I'm a self-taught developer from South Carolina. I've spent the 
+                    I'm a front end developer from South Carolina. I've spent the 
                     past three years learning about front end development and have 
                     worked on multiple open source team projects. Now I'm looking for my 
                     first professional opportunity.
