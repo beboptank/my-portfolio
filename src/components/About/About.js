@@ -10,7 +10,7 @@ const About = () => {
     return (
         <div id="about" className="aboutcontainer specialsubsectionlayout" data-aos="zoom-in" data-aos-duration="1500">
             <div className="aboutcontainer__imagecontainer">
-                <img className="aboutcontainer__imagecontainer__image" alt="headshot" src={require('./headshot.jpg')}/>
+                <img className="aboutcontainer__imagecontainer__image" alt="headshot" src="https://cdn.statically.io/gh/beboptank/my-portfolio/45be0ac4/src/components/About/headshot.jpg"/>
             </div>
             <div className="aboutcontainer__contentcontainer">
                 <h1 className="aboutcontainer__contentcontainer__head">About Me</h1>
